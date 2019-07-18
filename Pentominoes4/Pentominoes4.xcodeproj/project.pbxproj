@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F01D8DC71D8F306300A4ECFC /* iOS in Resources */ = {isa = PBXBuildFile; fileRef = F01D8DC61D8F306300A4ECFC /* iOS */; };
+		F0B681AB1D8DB4C900E89527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B681AA1D8DB4C900E89527 /* AppDelegate.swift */; };
+		F0B681AD1D8DB4C900E89527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B681AC1D8DB4C900E89527 /* ViewController.swift */; };
+		F0B681B01D8DB4C900E89527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B681AE1D8DB4C900E89527 /* Main.storyboard */; };
+		F0B681B21D8DB4C900E89527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B681B11D8DB4C900E89527 /* Assets.xcassets */; };
+		F0B681B51D8DB4C900E89527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B681B31D8DB4C900E89527 /* LaunchScreen.storyboard */; };
+		F0B681C01D8DB4CA00E89527 /* Pentominoes4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B681BF1D8DB4CA00E89527 /* Pentominoes4Tests.swift */; };
+		F0B681CB1D8DB4ED00E89527 /* Pentominoes Assets in Resources */ = {isa = PBXBuildFile; fileRef = F0B681CA1D8DB4ED00E89527 /* Pentominoes Assets */; };
+		F0B681E51D8DB7E800E89527 /* Board0.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681CC1D8DB7E800E89527 /* Board0.png */; };
+		F0B681E61D8DB7E800E89527 /* Board0button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681CD1D8DB7E800E89527 /* Board0button.png */; };
+		F0B681E71D8DB7E800E89527 /* Board1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681CE1D8DB7E800E89527 /* Board1@2x.png */; };
+		F0B681E81D8DB7E800E89527 /* Board1button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681CF1D8DB7E800E89527 /* Board1button.png */; };
+		F0B681E91D8DB7E800E89527 /* Board2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D01D8DB7E800E89527 /* Board2@2x.png */; };
+		F0B681EA1D8DB7E800E89527 /* Board2button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D11D8DB7E800E89527 /* Board2button.png */; };
+		F0B681EB1D8DB7E800E89527 /* Board3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D21D8DB7E800E89527 /* Board3@2x.png */; };
+		F0B681EC1D8DB7E800E89527 /* Board3button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D31D8DB7E800E89527 /* Board3button.png */; };
+		F0B681ED1D8DB7E800E89527 /* Board4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D41D8DB7E800E89527 /* Board4@2x.png */; };
+		F0B681EE1D8DB7E800E89527 /* Board4button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D51D8DB7E800E89527 /* Board4button.png */; };
+		F0B681EF1D8DB7E800E89527 /* Board5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D61D8DB7E800E89527 /* Board5@2x.png */; };
+		F0B681F01D8DB7E800E89527 /* Board5button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D71D8DB7E800E89527 /* Board5button.png */; };
+		F0B681F11D8DB7E800E89527 /* Solutions.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D81D8DB7E800E89527 /* Solutions.plist */; };
+		F0B681F21D8DB7E800E89527 /* tileF@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D91D8DB7E800E89527 /* tileF@2x.png */; };
+		F0B681F31D8DB7E800E89527 /* tileI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681DA1D8DB7E800E89527 /* tileI@2x.png */; };
+		F0B681F41D8DB7E800E89527 /* tileL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681DB1D8DB7E800E89527 /* tileL@2x.png */; };
+		F0B681F51D8DB7E800E89527 /* tileN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681DC1D8DB7E800E89527 /* tileN@2x.png */; };
+		F0B681F61D8DB7E800E89527 /* tileP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681DD1D8DB7E800E89527 /* tileP@2x.png */; };
+		F0B681F71D8DB7E800E89527 /* tileT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681DE1D8DB7E800E89527 /* tileT@2x.png */; };
+		F0B681F81D8DB7E800E89527 /* tileU@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681DF1D8DB7E800E89527 /* tileU@2x.png */; };
+		F0B681F91D8DB7E800E89527 /* tileV@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681E01D8DB7E800E89527 /* tileV@2x.png */; };
+		F0B681FA1D8DB7E800E89527 /* tileW@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681E11D8DB7E800E89527 /* tileW@2x.png */; };
+		F0B681FB1D8DB7E800E89527 /* tileX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681E21D8DB7E800E89527 /* tileX@2x.png */; };
+		F0B681FC1D8DB7E800E89527 /* tileY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681E31D8DB7E800E89527 /* tileY@2x.png */; };
+		F0B681FD1D8DB7E800E89527 /* tileZ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B681E41D8DB7E800E89527 /* tileZ@2x.png */; };
+		F0B682021D8DBEF100E89527 /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B682011D8DBEF100E89527 /* BoardModel.swift */; };
+		F0B682041D8DC09800E89527 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B682031D8DC09800E89527 /* GameModel.swift */; };
+		F0B682091D8DC34700E89527 /* TileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B682081D8DC34700E89527 /* TileModel.swift */; };
+		F0B6820D1D8E47A200E89527 /* bg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F0B6820C1D8E47A200E89527 /* bg.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0B681BC1D8DB4CA00E89527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B6819F1D8DB4C900E89527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B681A61D8DB4C900E89527;
+			remoteInfo = Pentominoes4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F01D8DC61D8F306300A4ECFC /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iOS; sourceTree = "<group>"; };
+		F0B681A71D8DB4C900E89527 /* Pentominoes4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pentominoes4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B681AA1D8DB4C900E89527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0B681AC1D8DB4C900E89527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0B681AF1D8DB4C900E89527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0B681B11D8DB4C900E89527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0B681B41D8DB4C900E89527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0B681B61D8DB4C900E89527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B681BB1D8DB4CA00E89527 /* Pentominoes4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pentominoes4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B681BF1D8DB4CA00E89527 /* Pentominoes4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pentominoes4Tests.swift; sourceTree = "<group>"; };
+		F0B681C11D8DB4CA00E89527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B681CA1D8DB4ED00E89527 /* Pentominoes Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Pentominoes Assets"; sourceTree = "<group>"; };
+		F0B681CC1D8DB7E800E89527 /* Board0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board0.png; path = "Pentominoes Assets/Board0.png"; sourceTree = "<group>"; };
+		F0B681CD1D8DB7E800E89527 /* Board0button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board0button.png; path = "Pentominoes Assets/Board0button.png"; sourceTree = "<group>"; };
+		F0B681CE1D8DB7E800E89527 /* Board1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Board1@2x.png"; path = "Pentominoes Assets/Board1@2x.png"; sourceTree = "<group>"; };
+		F0B681CF1D8DB7E800E89527 /* Board1button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board1button.png; path = "Pentominoes Assets/Board1button.png"; sourceTree = "<group>"; };
+		F0B681D01D8DB7E800E89527 /* Board2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Board2@2x.png"; path = "Pentominoes Assets/Board2@2x.png"; sourceTree = "<group>"; };
+		F0B681D11D8DB7E800E89527 /* Board2button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board2button.png; path = "Pentominoes Assets/Board2button.png"; sourceTree = "<group>"; };
+		F0B681D21D8DB7E800E89527 /* Board3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Board3@2x.png"; path = "Pentominoes Assets/Board3@2x.png"; sourceTree = "<group>"; };
+		F0B681D31D8DB7E800E89527 /* Board3button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board3button.png; path = "Pentominoes Assets/Board3button.png"; sourceTree = "<group>"; };
+		F0B681D41D8DB7E800E89527 /* Board4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Board4@2x.png"; path = "Pentominoes Assets/Board4@2x.png"; sourceTree = "<group>"; };
+		F0B681D51D8DB7E800E89527 /* Board4button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board4button.png; path = "Pentominoes Assets/Board4button.png"; sourceTree = "<group>"; };
+		F0B681D61D8DB7E800E89527 /* Board5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Board5@2x.png"; path = "Pentominoes Assets/Board5@2x.png"; sourceTree = "<group>"; };
+		F0B681D71D8DB7E800E89527 /* Board5button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board5button.png; path = "Pentominoes Assets/Board5button.png"; sourceTree = "<group>"; };
+		F0B681D81D8DB7E800E89527 /* Solutions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Solutions.plist; path = "Pentominoes Assets/Solutions.plist"; sourceTree = "<group>"; };
+		F0B681D91D8DB7E800E89527 /* tileF@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileF@2x.png"; path = "Pentominoes Assets/tileF@2x.png"; sourceTree = "<group>"; };
+		F0B681DA1D8DB7E800E89527 /* tileI@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileI@2x.png"; path = "Pentominoes Assets/tileI@2x.png"; sourceTree = "<group>"; };
+		F0B681DB1D8DB7E800E89527 /* tileL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileL@2x.png"; path = "Pentominoes Assets/tileL@2x.png"; sourceTree = "<group>"; };
+		F0B681DC1D8DB7E800E89527 /* tileN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileN@2x.png"; path = "Pentominoes Assets/tileN@2x.png"; sourceTree = "<group>"; };
+		F0B681DD1D8DB7E800E89527 /* tileP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileP@2x.png"; path = "Pentominoes Assets/tileP@2x.png"; sourceTree = "<group>"; };
+		F0B681DE1D8DB7E800E89527 /* tileT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileT@2x.png"; path = "Pentominoes Assets/tileT@2x.png"; sourceTree = "<group>"; };
+		F0B681DF1D8DB7E800E89527 /* tileU@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileU@2x.png"; path = "Pentominoes Assets/tileU@2x.png"; sourceTree = "<group>"; };
+		F0B681E01D8DB7E800E89527 /* tileV@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileV@2x.png"; path = "Pentominoes Assets/tileV@2x.png"; sourceTree = "<group>"; };
+		F0B681E11D8DB7E800E89527 /* tileW@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileW@2x.png"; path = "Pentominoes Assets/tileW@2x.png"; sourceTree = "<group>"; };
+		F0B681E21D8DB7E800E89527 /* tileX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileX@2x.png"; path = "Pentominoes Assets/tileX@2x.png"; sourceTree = "<group>"; };
+		F0B681E31D8DB7E800E89527 /* tileY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileY@2x.png"; path = "Pentominoes Assets/tileY@2x.png"; sourceTree = "<group>"; };
+		F0B681E41D8DB7E800E89527 /* tileZ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tileZ@2x.png"; path = "Pentominoes Assets/tileZ@2x.png"; sourceTree = "<group>"; };
+		F0B682011D8DBEF100E89527 /* BoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		F0B682031D8DC09800E89527 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F0B682081D8DC34700E89527 /* TileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileModel.swift; sourceTree = "<group>"; };
+		F0B6820C1D8E47A200E89527 /* bg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0B681A41D8DB4C900E89527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B681B81D8DB4CA00E89527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0B6819E1D8DB4C900E89527 = {
+			isa = PBXGroup;
+			children = (
+				F0B681A91D8DB4C900E89527 /* Pentominoes4 */,
+				F0B681BE1D8DB4CA00E89527 /* Pentominoes4Tests */,
+				F0B681A81D8DB4C900E89527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0B681A81D8DB4C900E89527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0B681A71D8DB4C900E89527 /* Pentominoes4.app */,
+				F0B681BB1D8DB4CA00E89527 /* Pentominoes4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B681A91D8DB4C900E89527 /* Pentominoes4 */ = {
+			isa = PBXGroup;
+			children = (
+				F0B6820C1D8E47A200E89527 /* bg.JPG */,
+				F0B681AA1D8DB4C900E89527 /* AppDelegate.swift */,
+				F0B682071D8DC0CC00E89527 /* Storyboards */,
+				F0B682061D8DC0AF00E89527 /* Controllers */,
+				F0B682051D8DC09F00E89527 /* Models */,
+				F0B682001D8DBE5200E89527 /* Assets */,
+				F0B681CA1D8DB4ED00E89527 /* Pentominoes Assets */,
+				F0B681B11D8DB4C900E89527 /* Assets.xcassets */,
+				F01D8DC61D8F306300A4ECFC /* iOS */,
+				F0B681B61D8DB4C900E89527 /* Info.plist */,
+			);
+			path = Pentominoes4;
+			sourceTree = "<group>";
+		};
+		F0B681BE1D8DB4CA00E89527 /* Pentominoes4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B681BF1D8DB4CA00E89527 /* Pentominoes4Tests.swift */,
+				F0B681C11D8DB4CA00E89527 /* Info.plist */,
+			);
+			path = Pentominoes4Tests;
+			sourceTree = "<group>";
+		};
+		F0B682001D8DBE5200E89527 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F0B681CC1D8DB7E800E89527 /* Board0.png */,
+				F0B681CD1D8DB7E800E89527 /* Board0button.png */,
+				F0B681CE1D8DB7E800E89527 /* Board1@2x.png */,
+				F0B681CF1D8DB7E800E89527 /* Board1button.png */,
+				F0B681D01D8DB7E800E89527 /* Board2@2x.png */,
+				F0B681D11D8DB7E800E89527 /* Board2button.png */,
+				F0B681D21D8DB7E800E89527 /* Board3@2x.png */,
+				F0B681D31D8DB7E800E89527 /* Board3button.png */,
+				F0B681D41D8DB7E800E89527 /* Board4@2x.png */,
+				F0B681D51D8DB7E800E89527 /* Board4button.png */,
+				F0B681D61D8DB7E800E89527 /* Board5@2x.png */,
+				F0B681D71D8DB7E800E89527 /* Board5button.png */,
+				F0B681D81D8DB7E800E89527 /* Solutions.plist */,
+				F0B681D91D8DB7E800E89527 /* tileF@2x.png */,
+				F0B681DA1D8DB7E800E89527 /* tileI@2x.png */,
+				F0B681DB1D8DB7E800E89527 /* tileL@2x.png */,
+				F0B681DC1D8DB7E800E89527 /* tileN@2x.png */,
+				F0B681DD1D8DB7E800E89527 /* tileP@2x.png */,
+				F0B681DE1D8DB7E800E89527 /* tileT@2x.png */,
+				F0B681DF1D8DB7E800E89527 /* tileU@2x.png */,
+				F0B681E01D8DB7E800E89527 /* tileV@2x.png */,
+				F0B681E11D8DB7E800E89527 /* tileW@2x.png */,
+				F0B681E21D8DB7E800E89527 /* tileX@2x.png */,
+				F0B681E31D8DB7E800E89527 /* tileY@2x.png */,
+				F0B681E41D8DB7E800E89527 /* tileZ@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F0B682051D8DC09F00E89527 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0B682011D8DBEF100E89527 /* BoardModel.swift */,
+				F0B682031D8DC09800E89527 /* GameModel.swift */,
+				F0B682081D8DC34700E89527 /* TileModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F0B682061D8DC0AF00E89527 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0B681AC1D8DB4C900E89527 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F0B682071D8DC0CC00E89527 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F0B681AE1D8DB4C900E89527 /* Main.storyboard */,
+				F0B681B31D8DB4C900E89527 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0B681A61D8DB4C900E89527 /* Pentominoes4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B681C41D8DB4CA00E89527 /* Build configuration list for PBXNativeTarget "Pentominoes4" */;
+			buildPhases = (
+				F0B681A31D8DB4C900E89527 /* Sources */,
+				F0B681A41D8DB4C900E89527 /* Frameworks */,
+				F0B681A51D8DB4C900E89527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pentominoes4;
+			productName = Pentominoes4;
+			productReference = F0B681A71D8DB4C900E89527 /* Pentominoes4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0B681BA1D8DB4CA00E89527 /* Pentominoes4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B681C71D8DB4CA00E89527 /* Build configuration list for PBXNativeTarget "Pentominoes4Tests" */;
+			buildPhases = (
+				F0B681B71D8DB4CA00E89527 /* Sources */,
+				F0B681B81D8DB4CA00E89527 /* Frameworks */,
+				F0B681B91D8DB4CA00E89527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B681BD1D8DB4CA00E89527 /* PBXTargetDependency */,
+			);
+			name = Pentominoes4Tests;
+			productName = Pentominoes4Tests;
+			productReference = F0B681BB1D8DB4CA00E89527 /* Pentominoes4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0B6819F1D8DB4C900E89527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brittany Chiu";
+				TargetAttributes = {
+					F0B681A61D8DB4C900E89527 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7577X5NT42;
+					};
+					F0B681BA1D8DB4CA00E89527 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7577X5NT42;
+						TestTargetID = F0B681A61D8DB4C900E89527;
+					};
+				};
+			};
+			buildConfigurationList = F0B681A21D8DB4C900E89527 /* Build configuration list for PBXProject "Pentominoes4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0B6819E1D8DB4C900E89527;
+			productRefGroup = F0B681A81D8DB4C900E89527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0B681A61D8DB4C900E89527 /* Pentominoes4 */,
+				F0B681BA1D8DB4CA00E89527 /* Pentominoes4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0B681A51D8DB4C900E89527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B6820D1D8E47A200E89527 /* bg.JPG in Resources */,
+				F0B681EF1D8DB7E800E89527 /* Board5@2x.png in Resources */,
+				F0B681F91D8DB7E800E89527 /* tileV@2x.png in Resources */,
+				F0B681FB1D8DB7E800E89527 /* tileX@2x.png in Resources */,
+				F0B681F21D8DB7E800E89527 /* tileF@2x.png in Resources */,
+				F0B681F11D8DB7E800E89527 /* Solutions.plist in Resources */,
+				F0B681F41D8DB7E800E89527 /* tileL@2x.png in Resources */,
+				F0B681E81D8DB7E800E89527 /* Board1button.png in Resources */,
+				F0B681B51D8DB4C900E89527 /* LaunchScreen.storyboard in Resources */,
+				F0B681EC1D8DB7E800E89527 /* Board3button.png in Resources */,
+				F0B681B21D8DB4C900E89527 /* Assets.xcassets in Resources */,
+				F0B681CB1D8DB4ED00E89527 /* Pentominoes Assets in Resources */,
+				F0B681EE1D8DB7E800E89527 /* Board4button.png in Resources */,
+				F0B681F31D8DB7E800E89527 /* tileI@2x.png in Resources */,
+				F0B681E91D8DB7E800E89527 /* Board2@2x.png in Resources */,
+				F0B681F81D8DB7E800E89527 /* tileU@2x.png in Resources */,
+				F0B681F71D8DB7E800E89527 /* tileT@2x.png in Resources */,
+				F0B681EA1D8DB7E800E89527 /* Board2button.png in Resources */,
+				F0B681E71D8DB7E800E89527 /* Board1@2x.png in Resources */,
+				F0B681F51D8DB7E800E89527 /* tileN@2x.png in Resources */,
+				F01D8DC71D8F306300A4ECFC /* iOS in Resources */,
+				F0B681B01D8DB4C900E89527 /* Main.storyboard in Resources */,
+				F0B681E51D8DB7E800E89527 /* Board0.png in Resources */,
+				F0B681FA1D8DB7E800E89527 /* tileW@2x.png in Resources */,
+				F0B681F01D8DB7E800E89527 /* Board5button.png in Resources */,
+				F0B681E61D8DB7E800E89527 /* Board0button.png in Resources */,
+				F0B681FD1D8DB7E800E89527 /* tileZ@2x.png in Resources */,
+				F0B681FC1D8DB7E800E89527 /* tileY@2x.png in Resources */,
+				F0B681ED1D8DB7E800E89527 /* Board4@2x.png in Resources */,
+				F0B681EB1D8DB7E800E89527 /* Board3@2x.png in Resources */,
+				F0B681F61D8DB7E800E89527 /* tileP@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B681B91D8DB4CA00E89527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0B681A31D8DB4C900E89527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B682021D8DBEF100E89527 /* BoardModel.swift in Sources */,
+				F0B682041D8DC09800E89527 /* GameModel.swift in Sources */,
+				F0B681AD1D8DB4C900E89527 /* ViewController.swift in Sources */,
+				F0B682091D8DC34700E89527 /* TileModel.swift in Sources */,
+				F0B681AB1D8DB4C900E89527 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B681B71D8DB4CA00E89527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B681C01D8DB4CA00E89527 /* Pentominoes4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0B681BD1D8DB4CA00E89527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B681A61D8DB4C900E89527 /* Pentominoes4 */;
+			targetProxy = F0B681BC1D8DB4CA00E89527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0B681AE1D8DB4C900E89527 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B681AF1D8DB4C900E89527 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0B681B31D8DB4C900E89527 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B681B41D8DB4C900E89527 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0B681C21D8DB4CA00E89527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F0B681C31D8DB4CA00E89527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0B681C51D8DB4CA00E89527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pentominoes4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.bcc5160.Pentominoes4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0B681C61D8DB4CA00E89527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pentominoes4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.bcc5160.Pentominoes4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0B681C81D8DB4CA00E89527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Pentominoes4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.bcc5160.Pentominoes4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentominoes4.app/Pentominoes4";
+			};
+			name = Debug;
+		};
+		F0B681C91D8DB4CA00E89527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Pentominoes4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.bcc5160.Pentominoes4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentominoes4.app/Pentominoes4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0B681A21D8DB4C900E89527 /* Build configuration list for PBXProject "Pentominoes4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B681C21D8DB4CA00E89527 /* Debug */,
+				F0B681C31D8DB4CA00E89527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B681C41D8DB4CA00E89527 /* Build configuration list for PBXNativeTarget "Pentominoes4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B681C51D8DB4CA00E89527 /* Debug */,
+				F0B681C61D8DB4CA00E89527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B681C71D8DB4CA00E89527 /* Build configuration list for PBXNativeTarget "Pentominoes4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B681C81D8DB4CA00E89527 /* Debug */,
+				F0B681C91D8DB4CA00E89527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0B6819F1D8DB4C900E89527 /* Project object */;
+}
